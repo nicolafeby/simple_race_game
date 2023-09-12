@@ -1,6 +1,8 @@
 import 'package:flame/game.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:simple_race_game/game_menu/menu/game_menu.dart';
+import 'package:simple_race_game/game_over/game_over.dart';
 import 'package:simple_race_game/racing_game/racing_game.dart';
 
 void main() {

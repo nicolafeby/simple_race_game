@@ -1,13 +1,9 @@
-
-// ignore_for_file: avoid_web_libraries_in_flutter
-
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart' hide Image, Gradient;
 import 'package:simple_race_game/core/game_collor/game_color.dart';
 import 'package:simple_race_game/game_menu/menu_card.dart/menu_card.dart';
 import 'package:simple_race_game/racing_game/racing_game.dart';
-
-import 'dart:html' as html;
+import 'package:universal_html/html.dart' as html;
 
 class Menu extends StatelessWidget {
   const Menu(this.game, {super.key});
