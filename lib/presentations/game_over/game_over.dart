@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:simple_race_game/game_menu/menu_card.dart/menu_card.dart';
-import 'package:simple_race_game/racing_game/racing_game.dart';
+import 'package:simple_race_game/presentations/game_menu/menu_card.dart/menu_card.dart';
+import 'package:simple_race_game/presentations/racing_game/racing_game.dart';
 
 class GameOver extends StatelessWidget {
   const GameOver(this.game, {super.key});

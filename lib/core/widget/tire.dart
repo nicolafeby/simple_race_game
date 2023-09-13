@@ -7,7 +7,7 @@ import 'package:flutter/material.dart' hide Image, Gradient;
 import 'package:flutter/services.dart';
 import 'package:simple_race_game/core/widget/car.dart';
 import 'package:simple_race_game/core/widget/trail.dart';
-import 'package:simple_race_game/racing_game/racing_game.dart';
+import 'package:simple_race_game/presentations/racing_game/racing_game.dart';
 
 class Tire extends BodyComponent<PadRacingGame> {
   Tire({

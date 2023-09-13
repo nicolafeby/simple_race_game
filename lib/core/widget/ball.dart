@@ -6,7 +6,7 @@ import 'package:flame/palette.dart';
 import 'package:flame_forge2d/flame_forge2d.dart' hide Particle, World;
 import 'package:simple_race_game/core/game_collor/game_color.dart';
 import 'package:simple_race_game/core/widget/car.dart';
-import 'package:simple_race_game/racing_game/racing_game.dart';
+import 'package:simple_race_game/presentations/racing_game/racing_game.dart';
 
 class Ball extends BodyComponent<PadRacingGame> with ContactCallbacks {
   final double radius;

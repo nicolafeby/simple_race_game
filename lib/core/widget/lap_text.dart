@@ -4,7 +4,7 @@ import 'package:flame/extensions.dart';
 import 'package:flutter/material.dart' hide Image, Gradient;
 import 'package:google_fonts/google_fonts.dart';
 import 'package:simple_race_game/core/widget/car.dart';
-import 'package:simple_race_game/racing_game/racing_game.dart';
+import 'package:simple_race_game/presentations/racing_game/racing_game.dart';
 
 class LapText extends PositionComponent with HasGameRef<PadRacingGame> {
   LapText({required this.car, required Vector2 position})

@@ -6,7 +6,7 @@ import 'package:flutter/material.dart' hide Image, Gradient;
 import 'package:simple_race_game/core/game_collor/game_color.dart';
 import 'package:simple_race_game/core/widget/lapline.dart';
 import 'package:simple_race_game/core/widget/tire.dart';
-import 'package:simple_race_game/racing_game/racing_game.dart';
+import 'package:simple_race_game/presentations/racing_game/racing_game.dart';
 
 class Car extends BodyComponent<PadRacingGame> {
   Car({required this.playerNumber, required this.cameraComponent})

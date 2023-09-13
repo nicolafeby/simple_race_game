@@ -4,7 +4,7 @@ import 'dart:ui';
 import 'package:flame/extensions.dart';
 import 'package:flame/palette.dart';
 import 'package:flame_forge2d/flame_forge2d.dart' hide Particle, World;
-import 'package:simple_race_game/racing_game/racing_game.dart';
+import 'package:simple_race_game/presentations/racing_game/racing_game.dart';
 
 class Wall extends BodyComponent<PadRacingGame> {
   Wall(this.position, this.size) : super(priority: 3);
