@@ -114,13 +114,15 @@ class PadRacingGame extends Forge2DGame with KeyboardEvents {
     }
 
     _clearPressedKeys();
-    // for (final key in keysPressed) {
-    //   activeKeyMaps.forEachIndexed((i, keyMap) {
-    //     if (keyMap.containsKey(key)) {
-    //       pressedKeySets[i].add(keyMap[key]!);
-    //     }
-    //   });
-    // }
+    for (final key in keysPressed) {
+      for (int index = 0; index < activeKeyMaps.length; index++) {
+        Map<LogicalKeyboardKey, LogicalKeyboardKey> map = activeKeyMaps[index];
+
+        if (map.containsKey(key)) {
+          pressedKeySets[index].add(map[key]!);
+        }
+      }
+    }
     return KeyEventResult.handled;
   }
 
